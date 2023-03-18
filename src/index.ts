@@ -15,5 +15,3 @@ Desvantagens:
 - Tempo de desenvolvimento aumenta bastante
 - Tenha cuidados com: YAGNI, KISS (You aren't gonna need it, Keep it simple, stupid!)
 */
-const nome = 'oi';
-console.log(nome);
