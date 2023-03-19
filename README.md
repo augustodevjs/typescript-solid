@@ -1,4 +1,4 @@
-# Aprendendo SOLID com TypeScript
+# SOLID com TypeScript
 
 Este projeto tem como objetivo aprender os princípios do SOLID e aplicá-los em um contexto real, utilizando TypeScript. O contexto da aplicação é sobre um carrinho de compras.
 
