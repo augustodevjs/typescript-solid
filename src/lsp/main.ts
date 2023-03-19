@@ -1,4 +1,4 @@
-/** Open Closed Principle */
+/** Liskov Substitution Principle  */
 
 import {
   FiftyPercentDiscount,

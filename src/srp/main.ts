@@ -1,3 +1,5 @@
+/** Single Responsability Principle */
+
 import { Order, Product, ShoppingCart } from './classes';
 import { Messaging, Persistency } from './services';
 
