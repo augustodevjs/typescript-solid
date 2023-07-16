@@ -1,27 +1,27 @@
 # SOLID com TypeScript
 
-Este projeto tem como objetivo aprender os princípios do SOLID e aplicá-los em um contexto real, utilizando TypeScript. O contexto da aplicação é sobre um carrinho de compras.
+This project aims to learn the principles of SOLID and apply them in a real-world context using TypeScript. The application context is about a shopping cart.
 
-O SOLID é um conjunto de princípios de design de software que visam criar sistemas mais flexíveis, escaláveis e fáceis de manter. Ele é composto por cinco princípios: Single Responsibility Principle (SRP), Open-Closed Principle (OCP), Liskov Substitution Principle (LSP), Interface Segregation Principle (ISP) e Dependency Inversion Principle (DIP).
+SOLID is a set of software design principles that aim to create more flexible, scalable, and maintainable systems. It consists of five principles: Single Responsibility Principle (SRP), Open-Closed Principle (OCP), Liskov Substitution Principle (LSP), Interface Segregation Principle (ISP), and Dependency Inversion Principle (DIP).
 
-A estrutura do projeto foi organizada de acordo com cada um dos princípios do SOLID. Cada pasta do projeto é responsável por implementar um princípio específico. Além disso, há um arquivo chamado legacy.ts que não utiliza nenhum princípio do SOLID. Ele foi criado para fins de comparação e demonstrar a importância de aplicar esses princípios.
+The project structure has been organized according to each of the SOLID principles. Each project folder is responsible for implementing a specific principle. Additionally, there is a file called legacy.ts that doesn't adhere to any SOLID principle. It was created for comparison purposes to demonstrate the importance of applying these principles.
 
 ### Single Responsibility Principle
 
-A pasta src/srp implementa o Single Responsibility Principle, que preconiza que uma classe deve ter apenas uma responsabilidade. Nessa pasta, as classes relacionadas ao carrinho de compras são organizadas de acordo com suas responsabilidades, como cálculo de preço e adição de produtos.
+The src/srp folder implements the Single Responsibility Principle, which states that a class should have only one responsibility. In this folder, the classes related to the shopping cart are organized based on their responsibilities, such as price calculation and product addition.
 
 ### Open-Closed Principle
 
-Já a pasta src/ocp implementa o Open-Closed Principle, que preconiza que uma classe deve estar aberta para extensão, mas fechada para modificação. Nessa pasta, o carrinho de compras foi implementado de forma que possa ser facilmente estendido para lidar com novos tipos de produtos ou promoções.
+The src/ocp folder implements the Open-Closed Principle, which states that a class should be open for extension but closed for modification. In this folder, the shopping cart has been implemented in a way that it can be easily extended to handle new types of products or promotions.
 
 ### Liskov Substitution Principle
 
-A pasta src/lsp implementa o Liskov Substitution Principle, que preconiza que uma classe derivada deve ser substituível por sua classe base. Nessa pasta, o carrinho de compras foi implementado de forma que possa lidar com diferentes tipos de produtos, como livros e eletrônicos, sem afetar seu comportamento.
+The src/lsp folder implements the Liskov Substitution Principle, which states that a derived class should be substitutable for its base class. In this folder, the shopping cart has been implemented in a way that it can handle different types of products, such as books and electronics, without affecting its behavior.
 
 ### Interface Segregation Principle
 
-A pasta src/isp implementa o Interface Segregation Principle, que preconiza que uma classe não deve depender de interfaces que não utiliza. Nessa pasta, as interfaces relacionadas ao carrinho de compras foram separadas de acordo com suas responsabilidades.
+The src/isp folder implements the Interface Segregation Principle, which states that a class should not depend on interfaces it doesn't use. In this folder, the interfaces related to the shopping cart have been separated based on their responsibilities.
 
 ### Dependency Inversion Principle
 
-Por fim, a pasta src/dip implementa o Dependency Inversion Principle, que preconiza que uma classe deve depender de abstrações e não de implementações concretas. Nessa pasta, as classes relacionadas ao carrinho de compras dependem apenas de interfaces e não de implementações concretas.
+Finally, the src/dip folder implements the Dependency Inversion Principle, which states that a class should depend on abstractions, not concrete implementations. In this folder, the classes related to the shopping cart depend only on interfaces, not concrete implementations.
